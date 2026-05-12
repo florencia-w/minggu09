@@ -1,0 +1,299 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portal Sekolah Cerdas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+                <!-- <script>
+                    const toggle = document.getElementById("menu-toggle");
+                    const menu = document.getElementById("nav-menu");
+
+                    toggle.addEventListener("click", () => {
+                        menu.classList.toggle("active");
+                    });
+                </script> -->
+  <!-- HEADER -->
+  <header>
+    <div class="container navbar">
+      <div class="logo">
+        <h2>Portal Sekolah Cerdas</h2>
+        <p>Website front-end sederhana untuk informasi sekolah</p>
+      </div>
+
+    <nav>
+        <!-- CHECKBOX -->
+        <input type="checkbox" id="menu-check">
+
+        <!-- HAMBURGER -->
+        <label for="menu-check" class="menu-toggle">
+            ☰
+        </label>
+
+        <!-- MENU -->
+        <ul class="nav-menu">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Fitur</a></li>
+            <li><a href="#">Pengumuman</a></li>
+            <li><a href="#">Jadwal</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Selamat Datang di Website Sekolah</h1>
+        <p>
+          Front-end ini dirancang sederhana, rapi, dan responsif untuk
+          menampilkan informasi sekolah seperti profil, fasilitas,
+          pengumuman, jadwal, dan kontak.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary">Lihat Profil</a>
+          <a href="#" class="btn btn-secondary">Baca Pengumuman</a>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <h3>Informasi Cepat</h3>
+
+        <p><strong>Nama Sekolah:</strong> SMA Negeri Cerdas Bangsa</p>
+        <p><strong>Akreditasi:</strong> A</p>
+        <p><strong>Alamat:</strong> Jl. Pendidikan No. 10</p>
+        <p><strong>Email:</strong> info@sekolahcerdas.sch.id</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFIL -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Profil Sekolah</h2>
+        <p>
+          Sekolah yang berkomitmen membangun generasi cerdas,
+          disiplin, kreatif, dan berkarakter.
+        </p>
+      </div>
+
+      <div class="profile-grid">
+        <div class="card">
+          <h3>Tentang Kami</h3>
+
+          <p>
+            SMA Negeri Cerdas Bangsa adalah sekolah yang berfokus pada
+            kualitas akademik, pengembangan karakter, dan keterampilan siswa.
+          </p>
+
+          <p>
+            Website ini menjadi media informasi resmi sekolah bagi siswa,
+            guru, orang tua, dan masyarakat.
+          </p>
+
+          <p><strong>Visi:</strong> Menjadi sekolah unggul dan berkarakter.</p>
+          <p><strong>Misi:</strong> Meningkatkan mutu pembelajaran dan prestasi siswa.</p>
+          <p><strong>Nilai:</strong> Disiplin, integritas, dan kolaborasi.</p>
+        </div>
+
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop" alt="Kelas Sekolah">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FITUR -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Fitur Website</h2>
+        <p>Contoh menu utama yang biasa ada pada sistem web front-end sekolah.</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="card small-card">
+          <h3>Data Guru</h3>
+          <p>Menampilkan daftar guru, bidang studi, dan wali kelas secara ringkas.</p>
+        </div>
+
+        <div class="card small-card">
+          <h3>Data Siswa</h3>
+          <p>Halaman informasi siswa, kelas, dan kegiatan akademik maupun non-akademik.</p>
+        </div>
+
+        <div class="card small-card">
+          <h3>Galeri Sekolah</h3>
+          <p>Dokumentasi kegiatan sekolah, lomba, upacara, dan aktivitas ekstrakurikuler.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PENGUMUMAN -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Pengumuman Sekolah</h2>
+        <p>Bagian ini dapat digunakan untuk informasi terbaru kepada seluruh warga sekolah.</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="card small-card">
+          <h3>Penerimaan Siswa Baru</h3>
+          <p>Pendaftaran siswa baru dibuka mulai 1 Juni sampai 30 Juni 2026.</p>
+        </div>
+
+        <div class="card small-card">
+          <h3>Ujian Tengah Semester</h3>
+          <p>UTS semester genap akan dilaksanakan pada minggu kedua bulan Mei.</p>
+        </div>
+
+        <div class="card small-card">
+          <h3>Lomba Antar Kelas</h3>
+          <p>Kegiatan lomba kebersihan dan kreativitas kelas dimulai bulan depan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JADWAL -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Jadwal Pelajaran</h2>
+        <p>Contoh tampilan data jadwal pelajaran dalam bentuk tabel visual.</p>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Hari</th>
+              <th>Jam</th>
+              <th>Mata Pelajaran</th>
+              <th>Guru</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Senin</td>
+              <td>07.30 - 09.00</td>
+              <td>Matematika</td>
+              <td>Ibu Rina</td>
+            </tr>
+
+            <tr>
+              <td>Selasa</td>
+              <td>08.00 - 09.30</td>
+              <td>Bahasa Indonesia</td>
+              <td>Bapak Andi</td>
+            </tr>
+
+            <tr>
+              <td>Rabu</td>
+              <td>08.30 - 11.00</td>
+              <td>Bahasa Inggris</td>
+              <td>Ibu Siska</td>
+            </tr>
+
+            <tr>
+              <td>Kamis</td>
+              <td>07.30 - 09.00</td>
+              <td>Biologi</td>
+              <td>Bapak Dodi</td>
+            </tr>
+
+            <tr>
+              <td>Jumat</td>
+              <td>08.00 - 09.30</td>
+              <td>Informatika</td>
+              <td>Ibu Maya</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Kontak Sekolah</h2>
+        <p>Informasi yang dapat dihubungi oleh siswa, orang tua, dan masyarakat.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Informasi Kontak</h3>
+
+          <p><strong>Alamat:</strong> Jl. Pendidikan No. 10, Medan</p>
+          <p><strong>Telepon:</strong> (061) 1234567</p>
+          <p><strong>Email:</strong> info@sekolahcerdas.sch.id</p>
+          <p><strong>Jam Layanan:</strong> Senin - Jumat, 08.00 - 15.00</p>
+        </div>
+
+        <div class="message-box">
+          <h3>Pesan Singkat</h3>
+
+          <p>
+            Website ini dapat dikembangkan lagi menjadi sistem sekolah
+            yang lebih lengkap, misalnya dengan halaman login,
+            formulir pendaftaran, data nilai, dan dashboard siswa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+
+      <div>
+        <h3>Portal Sekolah Cerdas</h3>
+        <p>
+          Template web front-end sekolah sederhana berbasis HTML dan CSS tanpa JavaScript.
+        </p>
+      </div>
+
+      <div>
+        <h3>Menu</h3>
+        <ul>
+          <li>Beranda</li>
+          <li>Profil</li>
+          <li>Pengumuman</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Layanan</h3>
+        <ul>
+          <li>Informasi Akademik</li>
+          <li>Kontak Sekolah</li>
+          <li>Jadwal Pelajaran</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © 2026 Portal Sekolah Cerdas. Semua hak dilindungi.
+    </div>
+  </footer>
+
+</body>
+</html>

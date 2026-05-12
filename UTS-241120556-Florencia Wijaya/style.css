@@ -1,0 +1,109 @@
+
+:root {
+    --primary: #f7efe4;
+    --secondary: #3498db;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--primary);
+}
+
+.h3{
+    color: #ffbd07;
+    font-size: 20px;
+}
+
+.h2{
+    color: #ffbd07;
+}
+
+.header {
+    background-color: var(--primary);
+    color: #5778e2;
+    margin: 15px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--white);
+    padding: 20px;
+    width: 1000px;
+    border-radius: 10px;
+    border-color: #e7d5ba;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    justify-content: center;
+}
+
+.profil img {
+    max-width: 150px;
+}
+
+.project {
+    text-align: left;
+    padding: 40px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--white);
+    padding: 20px;
+    width: 1000px;
+    border-radius: 10px;
+    border-color: #e7d5ba;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    color:orange;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.kontak {
+    text-align: center;
+    padding: 30px;
+    background-color: var(--primary);
+}
+
+.kontak a {
+    text-decoration: none;
+    color: var(--secondary);
+    margin: 0 10px;
+}
+
+.kontak a:hover {
+    color: green;
+}
+
+.footer {
+    display: flex;
+    background-color: rgba(0, 89, 255, 0.89);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+    gap: 70%;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.a:hover{
+    color: green;
+}
