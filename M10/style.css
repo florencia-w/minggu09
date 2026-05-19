@@ -540,7 +540,7 @@ nav a:hover, nav a.active {
 fieldset {
     border: 1px solid #334155;
     border-radius: 12px;
-    padding: 24px;
+    padding: 20px;
     background-color: #1e293b;
 }
 
@@ -560,12 +560,12 @@ legend {
     font-size: 0.875rem;
     font-weight: 600;
     color: #e2e8f0;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
 }
 
 .form-group input, .form-group select, .form-group textarea {
     width: 100%;
-    padding: 10px 14px;
+    padding: 10px 4px;
     background-color: #0f172a;
     border: 1px solid #334155;
     border-radius: 8px;
@@ -596,7 +596,7 @@ legend {
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 15px;
 }
 
 .form-actions {
